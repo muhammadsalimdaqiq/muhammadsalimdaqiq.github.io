@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#14224a"/><stop offset=".6" stop-color="#0a1229"/><stop offset="1" stop-color="#04060b"/></linearGradient>
+<radialGradient id="glow" cx="50%" cy="38%" r="55%"><stop offset="0" stop-color="#e6d3a3" stop-opacity=".22"/><stop offset="1" stop-color="#e6d3a3" stop-opacity="0"/></radialGradient>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9c7a3a"/><stop offset=".45" stop-color="#f3e4bd"/><stop offset="1" stop-color="#c9a45c"/></linearGradient>
+</defs>
+<rect width="800" height="1000" fill="url(#bg)"/><rect width="800" height="1000" fill="url(#glow)"/>
+<g fill="none" stroke="url(#g)" stroke-opacity=".28"><circle cx="400" cy="380" r="210"/><circle cx="400" cy="380" r="260" stroke-dasharray="2 9"/><circle cx="400" cy="380" r="320" stroke-opacity=".12"/></g>
+<text x="400" y="425" text-anchor="middle" font-family="Cormorant, Georgia, serif" font-size="128" letter-spacing="10" fill="url(#g)">MSD</text>
+<line x1="340" y1="470" x2="460" y2="470" stroke="url(#g)" stroke-opacity=".6"/><text x="400" y="510" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="18" letter-spacing="7" fill="#c3c8d2" fill-opacity=".7">OFFICIAL PORTRAIT</text>
+</svg>
